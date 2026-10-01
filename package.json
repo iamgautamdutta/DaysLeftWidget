@@ -1,0 +1,12 @@
+{
+  "name": "days-left-widget",
+  "version": "1.0.0",
+  "description": "A transparent desktop widget showing days left in the year, month, and current month grid.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^31.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy"
+      content="default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self'" />
+  <title>Days Left Widget</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card card-year">
+    <div id="year-grid" class="dot-grid-year"></div>
+    <div class="year-labels">
+      <span id="year-number"></span>
+      <span id="year-days-left"></span>
+    </div>
+  </div>
+
+  <div class="bottom-row">
+    <div class="card card-months">
+      <div id="month-grid" class="month-grid"></div>
+    </div>
+    <div class="card card-month">
+      <div id="month-dot-grid" class="dot-grid-month"></div>
+      <div class="month-info">
+        <div id="month-name"></div>
+        <div id="month-days-left"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
